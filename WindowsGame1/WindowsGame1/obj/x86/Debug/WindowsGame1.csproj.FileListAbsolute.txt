@@ -1,0 +1,16 @@
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\earth.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\shuttle.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\stars.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\arrow.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\Score.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\SmileyWalk.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\$nyuszinno_9framev0.2Crop.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\players.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\playersCrop.xnb
+D:\Coding\XNA\WindowsGame1\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\walk_iso_trans.xnb
