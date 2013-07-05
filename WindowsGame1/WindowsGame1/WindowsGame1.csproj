@@ -76,6 +76,7 @@
     <Compile Include="AnimatedNyuszi.cs" />
     <Compile Include="AnimBomberman.cs" />
     <Compile Include="AnimRobot.cs" />
+    <Compile Include="Map.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />

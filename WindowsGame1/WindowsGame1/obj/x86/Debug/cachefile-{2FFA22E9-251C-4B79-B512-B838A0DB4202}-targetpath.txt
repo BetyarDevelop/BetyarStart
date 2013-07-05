@@ -2,9 +2,9 @@ Content\earth.xnb
 Content\shuttle.xnb
 Content\stars.xnb
 Content\arrow.xnb
-Content\Score.xnb
 Content\SmileyWalk.xnb
 Content\$nyuszinno_9framev0.2Crop.xnb
 Content\players.xnb
 Content\playersCrop.xnb
 Content\walk_iso_trans.xnb
+Content\Score.xnb
