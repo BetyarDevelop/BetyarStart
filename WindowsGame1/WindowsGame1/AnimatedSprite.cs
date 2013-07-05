@@ -10,6 +10,9 @@ namespace TextureAtlas
 {
     public class AnimatedSprite
     {
+        private int width;
+        private int height;
+
         public Texture2D Texture { get; set; }
         public int Rows { get; set; }
         public int Columns { get; set; }
@@ -18,6 +21,7 @@ namespace TextureAtlas
         public int direction;
         int AnimationDelay = 0;
         private Vector2 NyuszinnoPos = new Vector2(400, 200);
+
 
         public AnimatedSprite(Texture2D texture, int rows, int columns)
         {
@@ -28,6 +32,8 @@ namespace TextureAtlas
             //totalFrames = Rows * Columns;
             totalFrames = 9;
             direction = 0;
+            width = Texture.Width / Columns;
+            height = Texture.Height / Rows;
         }
 
         public void Update()
@@ -85,10 +91,6 @@ namespace TextureAtlas
 
         public void Draw(SpriteBatch spriteBatch, Vector2 location)
         {
-            int width = Texture.Width / Columns;
-            int height = Texture.Height / Rows;
-            //int row = (int)((float)currentFrame / (float)Columns);
-            //int column = currentFrame % Columns;
             int row;
             switch (direction)
             {

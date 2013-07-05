@@ -22,6 +22,8 @@ namespace WindowsGame1
 
         private int Character;
 
+        private Level level = new Level();
+
         private KeyboardState oldKeyboardState;
         private KeyboardState newKeyboardState;
         private MouseState oldMouseState;
@@ -46,6 +48,9 @@ namespace WindowsGame1
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = false;
+            graphics.PreferredBackBufferHeight = 768;
+            graphics.PreferredBackBufferWidth = 1024;
             Content.RootDirectory = "Content";
         }
 
@@ -185,18 +190,19 @@ namespace WindowsGame1
 
             spriteBatch.Begin();
 
-            spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480), Color.White);
+            //spriteBatch.Draw(background, new Rectangle(0, 0, 800, 480), Color.White);
 
             Vector2 location = new Vector2(400, 240);
             Rectangle sourceRectangle = new Rectangle(0, 0, arrow.Width, arrow.Height);
             Vector2 origin = new Vector2(arrow.Width / 2, arrow.Height);
-            spriteBatch.Draw(arrow, location, sourceRectangle, Color.White, angle, origin, 1.0f, SpriteEffects.None, 1);
+            //spriteBatch.Draw(arrow, location, sourceRectangle, Color.White, angle, origin, 1.0f, SpriteEffects.None, 1);
 
-            spriteBatch.DrawString(font, "Score: " + score, new Vector2(100, 100), Color.White);
+            //spriteBatch.DrawString(font, "Score: " + score, new Vector2(100, 100), Color.White);
 
             NyuszinnoSprite.Draw(spriteBatch, NyuszinnoPos);
-            BombermanSprite.Draw(spriteBatch, BombermanPos);
-            RobotSprite.Draw(spriteBatch, RobotPos);
+            level.Draw(spriteBatch);
+            //BombermanSprite.Draw(spriteBatch, BombermanPos);
+            //RobotSprite.Draw(spriteBatch, RobotPos);
 
             spriteBatch.End();
 
